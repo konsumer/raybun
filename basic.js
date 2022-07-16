@@ -50,7 +50,7 @@ const { symbols } = dlopen(`./raylib/raylib.${process.arch}.${suffix}`, {
 // convert a string into a pointer to a buffer
 const cstr = s => ptr(Buffer.from((s || '\0')))
 
-// convert a 0-255 rgba to number
+// convert a 0-255 rgba to a 4-byte i32
 const rgb = (r, g, b, a) => (r & 0xFF) | ((g & 0xFF) << 8) | ((b & 0xFF) << 16) | ((a & 0xFF) << 24)
 
 export const LIGHTGRAY = rgb(200, 200, 200, 255) // Light Gray
