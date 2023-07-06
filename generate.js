@@ -48,7 +48,7 @@ for (const f of functions) {
   }
   api[f.name] = {
     args: (f?.params || []).map(t => mapType(t.type)),
-    return: mapType(f.returnType)
+    returns: mapType(f.returnType)
   }
 }
 
