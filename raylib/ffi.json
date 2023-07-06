@@ -5,320 +5,320 @@
       "i32",
       "cstring"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "WindowShouldClose": {
     "args": [],
-    "return": "bool"
+    "returns": "bool"
   },
   "CloseWindow": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "IsWindowReady": {
     "args": [],
-    "return": "bool"
+    "returns": "bool"
   },
   "IsWindowFullscreen": {
     "args": [],
-    "return": "bool"
+    "returns": "bool"
   },
   "IsWindowHidden": {
     "args": [],
-    "return": "bool"
+    "returns": "bool"
   },
   "IsWindowMinimized": {
     "args": [],
-    "return": "bool"
+    "returns": "bool"
   },
   "IsWindowMaximized": {
     "args": [],
-    "return": "bool"
+    "returns": "bool"
   },
   "IsWindowFocused": {
     "args": [],
-    "return": "bool"
+    "returns": "bool"
   },
   "IsWindowResized": {
     "args": [],
-    "return": "bool"
+    "returns": "bool"
   },
   "IsWindowState": {
     "args": [
       "u32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "SetWindowState": {
     "args": [
       "u32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ClearWindowState": {
     "args": [
       "u32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ToggleFullscreen": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "MaximizeWindow": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "MinimizeWindow": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "RestoreWindow": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "SetWindowIcon": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetWindowTitle": {
     "args": [
       "cstring"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetWindowPosition": {
     "args": [
       "i32",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetWindowMonitor": {
     "args": [
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetWindowMinSize": {
     "args": [
       "i32",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetWindowSize": {
     "args": [
       "i32",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetWindowOpacity": {
     "args": [
       "f32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "GetWindowHandle": {
     "args": [],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetScreenWidth": {
     "args": [],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetScreenHeight": {
     "args": [],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetRenderWidth": {
     "args": [],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetRenderHeight": {
     "args": [],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetMonitorCount": {
     "args": [],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetCurrentMonitor": {
     "args": [],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetMonitorPosition": {
     "args": [
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetMonitorWidth": {
     "args": [
       "i32"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetMonitorHeight": {
     "args": [
       "i32"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetMonitorPhysicalWidth": {
     "args": [
       "i32"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetMonitorPhysicalHeight": {
     "args": [
       "i32"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetMonitorRefreshRate": {
     "args": [
       "i32"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetWindowPosition": {
     "args": [],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetWindowScaleDPI": {
     "args": [],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetMonitorName": {
     "args": [
       "i32"
     ],
-    "return": "cstring"
+    "returns": "cstring"
   },
   "SetClipboardText": {
     "args": [
       "cstring"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "GetClipboardText": {
     "args": [],
-    "return": "cstring"
+    "returns": "cstring"
   },
   "EnableEventWaiting": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "DisableEventWaiting": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "SwapScreenBuffer": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "PollInputEvents": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "WaitTime": {
     "args": [
       "f64"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ShowCursor": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "HideCursor": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "IsCursorHidden": {
     "args": [],
-    "return": "bool"
+    "returns": "bool"
   },
   "EnableCursor": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "DisableCursor": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "IsCursorOnScreen": {
     "args": [],
-    "return": "bool"
+    "returns": "bool"
   },
   "ClearBackground": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "BeginDrawing": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "EndDrawing": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "BeginMode2D": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "EndMode2D": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "BeginMode3D": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "EndMode3D": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "BeginTextureMode": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "EndTextureMode": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "BeginShaderMode": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "EndShaderMode": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "BeginBlendMode": {
     "args": [
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "EndBlendMode": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "BeginScissorMode": {
     "args": [
@@ -327,61 +327,61 @@
       "i32",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "EndScissorMode": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "BeginVrStereoMode": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "EndVrStereoMode": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "LoadVrStereoConfig": {
     "args": [
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "UnloadVrStereoConfig": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "LoadShader": {
     "args": [
       "cstring",
       "cstring"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadShaderFromMemory": {
     "args": [
       "cstring",
       "cstring"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetShaderLocation": {
     "args": [
       "ptr",
       "cstring"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetShaderLocationAttrib": {
     "args": [
       "ptr",
       "cstring"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "SetShaderValue": {
     "args": [
@@ -390,7 +390,7 @@
       "ptr",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetShaderValueV": {
     "args": [
@@ -400,7 +400,7 @@
       "i32",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetShaderValueMatrix": {
     "args": [
@@ -408,7 +408,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetShaderValueTexture": {
     "args": [
@@ -416,46 +416,46 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "UnloadShader": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "GetMouseRay": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetCameraMatrix": {
     "args": [
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetCameraMatrix2D": {
     "args": [
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetWorldToScreen": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetScreenToWorld2D": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetWorldToScreenEx": {
     "args": [
@@ -464,57 +464,57 @@
       "i32",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetWorldToScreen2D": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "SetTargetFPS": {
     "args": [
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "GetFPS": {
     "args": [],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetFrameTime": {
     "args": [],
-    "return": "f32"
+    "returns": "f32"
   },
   "GetTime": {
     "args": [],
-    "return": "f64"
+    "returns": "f64"
   },
   "GetRandomValue": {
     "args": [
       "i32",
       "i32"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "SetRandomSeed": {
     "args": [
       "u32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "TakeScreenshot": {
     "args": [
       "cstring"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetConfigFlags": {
     "args": [
       "u32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "TraceLog": {
     "args": [
@@ -522,81 +522,81 @@
       "cstring",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetTraceLogLevel": {
     "args": [
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "MemAlloc": {
     "args": [
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "MemRealloc": {
     "args": [
       "ptr",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "MemFree": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "OpenURL": {
     "args": [
       "cstring"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetTraceLogCallback": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetLoadFileDataCallback": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetSaveFileDataCallback": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetLoadFileTextCallback": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetSaveFileTextCallback": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "LoadFileData": {
     "args": [
       "cstring",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "UnloadFileData": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SaveFileData": {
     "args": [
@@ -604,7 +604,7 @@
       "ptr",
       "u32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "ExportDataAsCode": {
     "args": [
@@ -612,107 +612,107 @@
       "u32",
       "cstring"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "LoadFileText": {
     "args": [
       "cstring"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "UnloadFileText": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SaveFileText": {
     "args": [
       "cstring",
       "ptr"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "FileExists": {
     "args": [
       "cstring"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "DirectoryExists": {
     "args": [
       "cstring"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "IsFileExtension": {
     "args": [
       "cstring",
       "cstring"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "GetFileLength": {
     "args": [
       "cstring"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetFileExtension": {
     "args": [
       "cstring"
     ],
-    "return": "cstring"
+    "returns": "cstring"
   },
   "GetFileName": {
     "args": [
       "cstring"
     ],
-    "return": "cstring"
+    "returns": "cstring"
   },
   "GetFileNameWithoutExt": {
     "args": [
       "cstring"
     ],
-    "return": "cstring"
+    "returns": "cstring"
   },
   "GetDirectoryPath": {
     "args": [
       "cstring"
     ],
-    "return": "cstring"
+    "returns": "cstring"
   },
   "GetPrevDirectoryPath": {
     "args": [
       "cstring"
     ],
-    "return": "cstring"
+    "returns": "cstring"
   },
   "GetWorkingDirectory": {
     "args": [],
-    "return": "cstring"
+    "returns": "cstring"
   },
   "GetApplicationDirectory": {
     "args": [],
-    "return": "cstring"
+    "returns": "cstring"
   },
   "ChangeDirectory": {
     "args": [
       "cstring"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "IsPathFile": {
     "args": [
       "cstring"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "LoadDirectoryFiles": {
     "args": [
       "cstring"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadDirectoryFilesEx": {
     "args": [
@@ -720,33 +720,33 @@
       "cstring",
       "bool"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "UnloadDirectoryFiles": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "IsFileDropped": {
     "args": [],
-    "return": "bool"
+    "returns": "bool"
   },
   "LoadDroppedFiles": {
     "args": [],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "UnloadDroppedFiles": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "GetFileModTime": {
     "args": [
       "cstring"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "CompressData": {
     "args": [
@@ -754,7 +754,7 @@
       "i32",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "DecompressData": {
     "args": [
@@ -762,7 +762,7 @@
       "i32",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "EncodeDataBase64": {
     "args": [
@@ -770,281 +770,281 @@
       "i32",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "DecodeDataBase64": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "IsKeyPressed": {
     "args": [
       "i32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "IsKeyDown": {
     "args": [
       "i32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "IsKeyReleased": {
     "args": [
       "i32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "IsKeyUp": {
     "args": [
       "i32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "SetExitKey": {
     "args": [
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "GetKeyPressed": {
     "args": [],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetCharPressed": {
     "args": [],
-    "return": "i32"
+    "returns": "i32"
   },
   "IsGamepadAvailable": {
     "args": [
       "i32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "GetGamepadName": {
     "args": [
       "i32"
     ],
-    "return": "cstring"
+    "returns": "cstring"
   },
   "IsGamepadButtonPressed": {
     "args": [
       "i32",
       "i32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "IsGamepadButtonDown": {
     "args": [
       "i32",
       "i32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "IsGamepadButtonReleased": {
     "args": [
       "i32",
       "i32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "IsGamepadButtonUp": {
     "args": [
       "i32",
       "i32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "GetGamepadButtonPressed": {
     "args": [],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetGamepadAxisCount": {
     "args": [
       "i32"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetGamepadAxisMovement": {
     "args": [
       "i32",
       "i32"
     ],
-    "return": "f32"
+    "returns": "f32"
   },
   "SetGamepadMappings": {
     "args": [
       "cstring"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "IsMouseButtonPressed": {
     "args": [
       "i32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "IsMouseButtonDown": {
     "args": [
       "i32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "IsMouseButtonReleased": {
     "args": [
       "i32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "IsMouseButtonUp": {
     "args": [
       "i32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "GetMouseX": {
     "args": [],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetMouseY": {
     "args": [],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetMousePosition": {
     "args": [],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetMouseDelta": {
     "args": [],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "SetMousePosition": {
     "args": [
       "i32",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetMouseOffset": {
     "args": [
       "i32",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetMouseScale": {
     "args": [
       "f32",
       "f32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "GetMouseWheelMove": {
     "args": [],
-    "return": "f32"
+    "returns": "f32"
   },
   "GetMouseWheelMoveV": {
     "args": [],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "SetMouseCursor": {
     "args": [
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "GetTouchX": {
     "args": [],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetTouchY": {
     "args": [],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetTouchPosition": {
     "args": [
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetTouchPointId": {
     "args": [
       "i32"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetTouchPointCount": {
     "args": [],
-    "return": "i32"
+    "returns": "i32"
   },
   "SetGesturesEnabled": {
     "args": [
       "u32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "IsGestureDetected": {
     "args": [
       "i32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "GetGestureDetected": {
     "args": [],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetGestureHoldDuration": {
     "args": [],
-    "return": "f32"
+    "returns": "f32"
   },
   "GetGestureDragVector": {
     "args": [],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetGestureDragAngle": {
     "args": [],
-    "return": "f32"
+    "returns": "f32"
   },
   "GetGesturePinchVector": {
     "args": [],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetGesturePinchAngle": {
     "args": [],
-    "return": "f32"
+    "returns": "f32"
   },
   "SetCameraMode": {
     "args": [
       "ptr",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "UpdateCamera": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetCameraPanControl": {
     "args": [
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetCameraAltControl": {
     "args": [
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetCameraSmoothZoomControl": {
     "args": [
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetCameraMoveControls": {
     "args": [
@@ -1055,14 +1055,14 @@
       "i32",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetShapesTexture": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawPixel": {
     "args": [
@@ -1070,14 +1070,14 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawPixelV": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawLine": {
     "args": [
@@ -1087,7 +1087,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawLineV": {
     "args": [
@@ -1095,7 +1095,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawLineEx": {
     "args": [
@@ -1104,7 +1104,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawLineBezier": {
     "args": [
@@ -1113,7 +1113,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawLineBezierQuad": {
     "args": [
@@ -1123,7 +1123,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawLineBezierCubic": {
     "args": [
@@ -1134,7 +1134,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawLineStrip": {
     "args": [
@@ -1142,7 +1142,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawCircle": {
     "args": [
@@ -1151,7 +1151,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawCircleSector": {
     "args": [
@@ -1162,7 +1162,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawCircleSectorLines": {
     "args": [
@@ -1173,7 +1173,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawCircleGradient": {
     "args": [
@@ -1183,7 +1183,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawCircleV": {
     "args": [
@@ -1191,7 +1191,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawCircleLines": {
     "args": [
@@ -1200,7 +1200,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawEllipse": {
     "args": [
@@ -1210,7 +1210,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawEllipseLines": {
     "args": [
@@ -1220,7 +1220,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawRing": {
     "args": [
@@ -1232,7 +1232,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawRingLines": {
     "args": [
@@ -1244,7 +1244,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawRectangle": {
     "args": [
@@ -1254,7 +1254,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawRectangleV": {
     "args": [
@@ -1262,14 +1262,14 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawRectangleRec": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawRectanglePro": {
     "args": [
@@ -1278,7 +1278,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawRectangleGradientV": {
     "args": [
@@ -1289,7 +1289,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawRectangleGradientH": {
     "args": [
@@ -1300,7 +1300,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawRectangleGradientEx": {
     "args": [
@@ -1310,7 +1310,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawRectangleLines": {
     "args": [
@@ -1320,7 +1320,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawRectangleLinesEx": {
     "args": [
@@ -1328,7 +1328,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawRectangleRounded": {
     "args": [
@@ -1337,7 +1337,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawRectangleRoundedLines": {
     "args": [
@@ -1347,7 +1347,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTriangle": {
     "args": [
@@ -1356,7 +1356,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTriangleLines": {
     "args": [
@@ -1365,7 +1365,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTriangleFan": {
     "args": [
@@ -1373,7 +1373,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTriangleStrip": {
     "args": [
@@ -1381,7 +1381,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawPoly": {
     "args": [
@@ -1391,7 +1391,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawPolyLines": {
     "args": [
@@ -1401,7 +1401,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawPolyLinesEx": {
     "args": [
@@ -1412,14 +1412,14 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "CheckCollisionRecs": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "CheckCollisionCircles": {
     "args": [
@@ -1428,7 +1428,7 @@
       "ptr",
       "f32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "CheckCollisionCircleRec": {
     "args": [
@@ -1436,14 +1436,14 @@
       "f32",
       "ptr"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "CheckCollisionPointRec": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "CheckCollisionPointCircle": {
     "args": [
@@ -1451,7 +1451,7 @@
       "ptr",
       "f32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "CheckCollisionPointTriangle": {
     "args": [
@@ -1460,7 +1460,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "CheckCollisionLines": {
     "args": [
@@ -1470,7 +1470,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "CheckCollisionPointLine": {
     "args": [
@@ -1479,20 +1479,20 @@
       "ptr",
       "i32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "GetCollisionRec": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadImage": {
     "args": [
       "cstring"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadImageRaw": {
     "args": [
@@ -1502,14 +1502,14 @@
       "i32",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadImageAnim": {
     "args": [
       "cstring",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadImageFromMemory": {
     "args": [
@@ -1517,37 +1517,37 @@
       "ptr",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadImageFromTexture": {
     "args": [
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadImageFromScreen": {
     "args": [],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "UnloadImage": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ExportImage": {
     "args": [
       "ptr",
       "cstring"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "ExportImageAsCode": {
     "args": [
       "ptr",
       "cstring"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "GenImageColor": {
     "args": [
@@ -1555,7 +1555,7 @@
       "i32",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GenImageGradientV": {
     "args": [
@@ -1564,7 +1564,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GenImageGradientH": {
     "args": [
@@ -1573,7 +1573,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GenImageGradientRadial": {
     "args": [
@@ -1583,7 +1583,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GenImageChecked": {
     "args": [
@@ -1594,7 +1594,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GenImageWhiteNoise": {
     "args": [
@@ -1602,7 +1602,7 @@
       "i32",
       "f32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GenImageCellular": {
     "args": [
@@ -1610,20 +1610,20 @@
       "i32",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "ImageCopy": {
     "args": [
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "ImageFromImage": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "ImageText": {
     "args": [
@@ -1631,7 +1631,7 @@
       "i32",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "ImageTextEx": {
     "args": [
@@ -1641,35 +1641,35 @@
       "f32",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "ImageFormat": {
     "args": [
       "ptr",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageToPOT": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageCrop": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageAlphaCrop": {
     "args": [
       "ptr",
       "f32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageAlphaClear": {
     "args": [
@@ -1677,20 +1677,20 @@
       "ptr",
       "f32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageAlphaMask": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageAlphaPremultiply": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageResize": {
     "args": [
@@ -1698,7 +1698,7 @@
       "i32",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageResizeNN": {
     "args": [
@@ -1706,7 +1706,7 @@
       "i32",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageResizeCanvas": {
     "args": [
@@ -1717,13 +1717,13 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageMipmaps": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageDither": {
     "args": [
@@ -1733,64 +1733,64 @@
       "i32",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageFlipVertical": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageFlipHorizontal": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageRotateCW": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageRotateCCW": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageColorTint": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageColorInvert": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageColorGrayscale": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageColorContrast": {
     "args": [
       "ptr",
       "f32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageColorBrightness": {
     "args": [
       "ptr",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageColorReplace": {
     "args": [
@@ -1798,13 +1798,13 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "LoadImageColors": {
     "args": [
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadImagePalette": {
     "args": [
@@ -1812,26 +1812,26 @@
       "i32",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "UnloadImageColors": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "UnloadImagePalette": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "GetImageAlphaBorder": {
     "args": [
       "ptr",
       "f32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetImageColor": {
     "args": [
@@ -1839,14 +1839,14 @@
       "i32",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "ImageClearBackground": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageDrawPixel": {
     "args": [
@@ -1855,7 +1855,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageDrawPixelV": {
     "args": [
@@ -1863,7 +1863,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageDrawLine": {
     "args": [
@@ -1874,7 +1874,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageDrawLineV": {
     "args": [
@@ -1883,7 +1883,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageDrawCircle": {
     "args": [
@@ -1893,7 +1893,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageDrawCircleV": {
     "args": [
@@ -1902,7 +1902,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageDrawRectangle": {
     "args": [
@@ -1913,7 +1913,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageDrawRectangleV": {
     "args": [
@@ -1922,7 +1922,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageDrawRectangleRec": {
     "args": [
@@ -1930,7 +1930,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageDrawRectangleLines": {
     "args": [
@@ -1939,7 +1939,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageDraw": {
     "args": [
@@ -1949,7 +1949,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageDrawText": {
     "args": [
@@ -1960,7 +1960,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ImageDrawTextEx": {
     "args": [
@@ -1972,52 +1972,52 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "LoadTexture": {
     "args": [
       "cstring"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadTextureFromImage": {
     "args": [
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadTextureCubemap": {
     "args": [
       "ptr",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadRenderTexture": {
     "args": [
       "i32",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "UnloadTexture": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "UnloadRenderTexture": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "UpdateTexture": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "UpdateTextureRec": {
     "args": [
@@ -2025,27 +2025,27 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "GenTextureMipmaps": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetTextureFilter": {
     "args": [
       "ptr",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetTextureWrap": {
     "args": [
       "ptr",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTexture": {
     "args": [
@@ -2054,7 +2054,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTextureV": {
     "args": [
@@ -2062,7 +2062,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTextureEx": {
     "args": [
@@ -2072,7 +2072,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTextureRec": {
     "args": [
@@ -2081,7 +2081,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTextureQuad": {
     "args": [
@@ -2091,7 +2091,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTextureTiled": {
     "args": [
@@ -2103,7 +2103,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTexturePro": {
     "args": [
@@ -2114,7 +2114,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTextureNPatch": {
     "args": [
@@ -2125,7 +2125,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTexturePoly": {
     "args": [
@@ -2136,38 +2136,38 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "Fade": {
     "args": [
       "ptr",
       "f32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "ColorToInt": {
     "args": [
       "ptr"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "ColorNormalize": {
     "args": [
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "ColorFromNormalized": {
     "args": [
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "ColorToHSV": {
     "args": [
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "ColorFromHSV": {
     "args": [
@@ -2175,14 +2175,14 @@
       "f32",
       "f32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "ColorAlpha": {
     "args": [
       "ptr",
       "f32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "ColorAlphaBlend": {
     "args": [
@@ -2190,20 +2190,20 @@
       "ptr",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetColor": {
     "args": [
       "u32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetPixelColor": {
     "args": [
       "ptr",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "SetPixelColor": {
     "args": [
@@ -2211,7 +2211,7 @@
       "ptr",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "GetPixelDataSize": {
     "args": [
@@ -2219,17 +2219,17 @@
       "i32",
       "i32"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetFontDefault": {
     "args": [],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadFont": {
     "args": [
       "cstring"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadFontEx": {
     "args": [
@@ -2238,7 +2238,7 @@
       "ptr",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadFontFromImage": {
     "args": [
@@ -2246,7 +2246,7 @@
       "ptr",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadFontFromMemory": {
     "args": [
@@ -2257,7 +2257,7 @@
       "ptr",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadFontData": {
     "args": [
@@ -2268,7 +2268,7 @@
       "i32",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GenImageFontAtlas": {
     "args": [
@@ -2279,34 +2279,34 @@
       "i32",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "UnloadFontData": {
     "args": [
       "ptr",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "UnloadFont": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ExportFontAsCode": {
     "args": [
       "ptr",
       "cstring"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "DrawFPS": {
     "args": [
       "i32",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawText": {
     "args": [
@@ -2316,7 +2316,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTextEx": {
     "args": [
@@ -2327,7 +2327,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTextPro": {
     "args": [
@@ -2340,7 +2340,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTextCodepoint": {
     "args": [
@@ -2350,7 +2350,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTextCodepoints": {
     "args": [
@@ -2362,14 +2362,14 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "MeasureText": {
     "args": [
       "cstring",
       "i32"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "MeasureTextEx": {
     "args": [
@@ -2378,95 +2378,95 @@
       "f32",
       "f32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetGlyphIndex": {
     "args": [
       "ptr",
       "i32"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetGlyphInfo": {
     "args": [
       "ptr",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetGlyphAtlasRec": {
     "args": [
       "ptr",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadCodepoints": {
     "args": [
       "cstring",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "UnloadCodepoints": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "GetCodepointCount": {
     "args": [
       "cstring"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "GetCodepoint": {
     "args": [
       "cstring",
       "ptr"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "CodepointToUTF8": {
     "args": [
       "i32",
       "ptr"
     ],
-    "return": "cstring"
+    "returns": "cstring"
   },
   "TextCodepointsToUTF8": {
     "args": [
       "ptr",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "TextCopy": {
     "args": [
       "ptr",
       "cstring"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "TextIsEqual": {
     "args": [
       "cstring",
       "cstring"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "TextLength": {
     "args": [
       "cstring"
     ],
-    "return": "u32"
+    "returns": "u32"
   },
   "TextFormat": {
     "args": [
       "cstring",
       "ptr"
     ],
-    "return": "cstring"
+    "returns": "cstring"
   },
   "TextSubtext": {
     "args": [
@@ -2474,7 +2474,7 @@
       "i32",
       "i32"
     ],
-    "return": "cstring"
+    "returns": "cstring"
   },
   "TextReplace": {
     "args": [
@@ -2482,7 +2482,7 @@
       "cstring",
       "cstring"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "TextInsert": {
     "args": [
@@ -2490,7 +2490,7 @@
       "cstring",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "TextJoin": {
     "args": [
@@ -2498,7 +2498,7 @@
       "i32",
       "cstring"
     ],
-    "return": "cstring"
+    "returns": "cstring"
   },
   "TextSplit": {
     "args": [
@@ -2506,7 +2506,7 @@
       "char",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "TextAppend": {
     "args": [
@@ -2514,38 +2514,38 @@
       "cstring",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "TextFindIndex": {
     "args": [
       "cstring",
       "cstring"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "TextToUpper": {
     "args": [
       "cstring"
     ],
-    "return": "cstring"
+    "returns": "cstring"
   },
   "TextToLower": {
     "args": [
       "cstring"
     ],
-    "return": "cstring"
+    "returns": "cstring"
   },
   "TextToPascal": {
     "args": [
       "cstring"
     ],
-    "return": "cstring"
+    "returns": "cstring"
   },
   "TextToInteger": {
     "args": [
       "cstring"
     ],
-    "return": "i32"
+    "returns": "i32"
   },
   "DrawLine3D": {
     "args": [
@@ -2553,14 +2553,14 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawPoint3D": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawCircle3D": {
     "args": [
@@ -2570,7 +2570,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTriangle3D": {
     "args": [
@@ -2579,7 +2579,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawTriangleStrip3D": {
     "args": [
@@ -2587,7 +2587,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawCube": {
     "args": [
@@ -2597,7 +2597,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawCubeV": {
     "args": [
@@ -2605,7 +2605,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawCubeWires": {
     "args": [
@@ -2615,7 +2615,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawCubeWiresV": {
     "args": [
@@ -2623,7 +2623,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawCubeTexture": {
     "args": [
@@ -2634,7 +2634,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawCubeTextureRec": {
     "args": [
@@ -2646,7 +2646,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawSphere": {
     "args": [
@@ -2654,7 +2654,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawSphereEx": {
     "args": [
@@ -2664,7 +2664,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawSphereWires": {
     "args": [
@@ -2674,7 +2674,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawCylinder": {
     "args": [
@@ -2685,7 +2685,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawCylinderEx": {
     "args": [
@@ -2696,7 +2696,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawCylinderWires": {
     "args": [
@@ -2707,7 +2707,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawCylinderWiresEx": {
     "args": [
@@ -2718,7 +2718,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawPlane": {
     "args": [
@@ -2726,51 +2726,51 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawRay": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawGrid": {
     "args": [
       "i32",
       "f32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "LoadModel": {
     "args": [
       "cstring"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadModelFromMesh": {
     "args": [
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "UnloadModel": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "UnloadModelKeepMeshes": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "GetModelBoundingBox": {
     "args": [
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "DrawModel": {
     "args": [
@@ -2779,7 +2779,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawModelEx": {
     "args": [
@@ -2790,7 +2790,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawModelWires": {
     "args": [
@@ -2799,7 +2799,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawModelWiresEx": {
     "args": [
@@ -2810,14 +2810,14 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawBoundingBox": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawBillboard": {
     "args": [
@@ -2827,7 +2827,7 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawBillboardRec": {
     "args": [
@@ -2838,7 +2838,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawBillboardPro": {
     "args": [
@@ -2852,14 +2852,14 @@
       "f32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "UploadMesh": {
     "args": [
       "ptr",
       "bool"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "UpdateMeshBuffer": {
     "args": [
@@ -2869,13 +2869,13 @@
       "i32",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "UnloadMesh": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawMesh": {
     "args": [
@@ -2883,7 +2883,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DrawMeshInstanced": {
     "args": [
@@ -2892,33 +2892,33 @@
       "ptr",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ExportMesh": {
     "args": [
       "ptr",
       "cstring"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "GetMeshBoundingBox": {
     "args": [
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GenMeshTangents": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "GenMeshPoly": {
     "args": [
       "i32",
       "f32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GenMeshPlane": {
     "args": [
@@ -2927,7 +2927,7 @@
       "i32",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GenMeshCube": {
     "args": [
@@ -2935,7 +2935,7 @@
       "f32",
       "f32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GenMeshSphere": {
     "args": [
@@ -2943,7 +2943,7 @@
       "i32",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GenMeshHemiSphere": {
     "args": [
@@ -2951,7 +2951,7 @@
       "i32",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GenMeshCylinder": {
     "args": [
@@ -2959,7 +2959,7 @@
       "f32",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GenMeshCone": {
     "args": [
@@ -2967,7 +2967,7 @@
       "f32",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GenMeshTorus": {
     "args": [
@@ -2976,7 +2976,7 @@
       "i32",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GenMeshKnot": {
     "args": [
@@ -2985,38 +2985,38 @@
       "i32",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GenMeshHeightmap": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GenMeshCubicmap": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadMaterials": {
     "args": [
       "cstring",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadMaterialDefault": {
     "args": [],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "UnloadMaterial": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetMaterialTexture": {
     "args": [
@@ -3024,7 +3024,7 @@
       "i32",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetModelMeshMaterial": {
     "args": [
@@ -3032,14 +3032,14 @@
       "i32",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "LoadModelAnimations": {
     "args": [
       "cstring",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "UpdateModelAnimation": {
     "args": [
@@ -3047,27 +3047,27 @@
       "ptr",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "UnloadModelAnimation": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "UnloadModelAnimations": {
     "args": [
       "ptr",
       "u32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "IsModelAnimationValid": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "CheckCollisionSpheres": {
     "args": [
@@ -3076,14 +3076,14 @@
       "ptr",
       "f32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "CheckCollisionBoxes": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "CheckCollisionBoxSphere": {
     "args": [
@@ -3091,7 +3091,7 @@
       "ptr",
       "f32"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "GetRayCollisionSphere": {
     "args": [
@@ -3099,14 +3099,14 @@
       "ptr",
       "f32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetRayCollisionBox": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetRayCollisionMesh": {
     "args": [
@@ -3114,7 +3114,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetRayCollisionTriangle": {
     "args": [
@@ -3123,7 +3123,7 @@
       "ptr",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "GetRayCollisionQuad": {
     "args": [
@@ -3133,31 +3133,31 @@
       "ptr",
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "InitAudioDevice": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "CloseAudioDevice": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "IsAudioDeviceReady": {
     "args": [],
-    "return": "bool"
+    "returns": "bool"
   },
   "SetMasterVolume": {
     "args": [
       "f32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "LoadWave": {
     "args": [
       "cstring"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadWaveFromMemory": {
     "args": [
@@ -3165,19 +3165,19 @@
       "ptr",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadSound": {
     "args": [
       "cstring"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadSoundFromWave": {
     "args": [
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "UpdateSound": {
     "args": [
@@ -3185,104 +3185,104 @@
       "ptr",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "UnloadWave": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "UnloadSound": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ExportWave": {
     "args": [
       "ptr",
       "cstring"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "ExportWaveAsCode": {
     "args": [
       "ptr",
       "cstring"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "PlaySound": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "StopSound": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "PauseSound": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ResumeSound": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "PlaySoundMulti": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "StopSoundMulti": {
     "args": [],
-    "return": "void"
+    "returns": "void"
   },
   "GetSoundsPlaying": {
     "args": [],
-    "return": "i32"
+    "returns": "i32"
   },
   "IsSoundPlaying": {
     "args": [
       "ptr"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "SetSoundVolume": {
     "args": [
       "ptr",
       "f32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetSoundPitch": {
     "args": [
       "ptr",
       "f32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetSoundPan": {
     "args": [
       "ptr",
       "f32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "WaveCopy": {
     "args": [
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "WaveCrop": {
     "args": [
@@ -3290,7 +3290,7 @@
       "i32",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "WaveFormat": {
     "args": [
@@ -3299,25 +3299,25 @@
       "i32",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "LoadWaveSamples": {
     "args": [
       "ptr"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "UnloadWaveSamples": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "LoadMusicStream": {
     "args": [
       "cstring"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "LoadMusicStreamFromMemory": {
     "args": [
@@ -3325,89 +3325,89 @@
       "ptr",
       "i32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "UnloadMusicStream": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "PlayMusicStream": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "IsMusicStreamPlaying": {
     "args": [
       "ptr"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "UpdateMusicStream": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "StopMusicStream": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "PauseMusicStream": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ResumeMusicStream": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SeekMusicStream": {
     "args": [
       "ptr",
       "f32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetMusicVolume": {
     "args": [
       "ptr",
       "f32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetMusicPitch": {
     "args": [
       "ptr",
       "f32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetMusicPan": {
     "args": [
       "ptr",
       "f32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "GetMusicTimeLength": {
     "args": [
       "ptr"
     ],
-    "return": "f32"
+    "returns": "f32"
   },
   "GetMusicTimePlayed": {
     "args": [
       "ptr"
     ],
-    "return": "f32"
+    "returns": "f32"
   },
   "LoadAudioStream": {
     "args": [
@@ -3415,13 +3415,13 @@
       "u32",
       "u32"
     ],
-    "return": "ptr"
+    "returns": "ptr"
   },
   "UnloadAudioStream": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "UpdateAudioStream": {
     "args": [
@@ -3429,90 +3429,90 @@
       "ptr",
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "IsAudioStreamProcessed": {
     "args": [
       "ptr"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "PlayAudioStream": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "PauseAudioStream": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "ResumeAudioStream": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "IsAudioStreamPlaying": {
     "args": [
       "ptr"
     ],
-    "return": "bool"
+    "returns": "bool"
   },
   "StopAudioStream": {
     "args": [
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetAudioStreamVolume": {
     "args": [
       "ptr",
       "f32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetAudioStreamPitch": {
     "args": [
       "ptr",
       "f32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetAudioStreamPan": {
     "args": [
       "ptr",
       "f32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetAudioStreamBufferSizeDefault": {
     "args": [
       "i32"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "SetAudioStreamCallback": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "AttachAudioStreamProcessor": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   },
   "DetachAudioStreamProcessor": {
     "args": [
       "ptr",
       "ptr"
     ],
-    "return": "void"
+    "returns": "void"
   }
 }
